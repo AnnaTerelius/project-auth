@@ -21,7 +21,11 @@ export const App = () => {
           <Route path="/sessions" exact>
             <SignInForm/>
           </Route>
-          <Secrets />
+          <Route path="/secrets" exact>
+            <Secrets />
+          </Route>
+          
+          
         </Switch>
       </main>
     </BrowserRouter> 
